@@ -9,7 +9,7 @@ Diante da situação epidemiológica, o Estado de São Paulo decretou emergênci
 
 
 1.1 Objetivo
-	Os objetivos deste trabalho são:
+	Os objetivos foram:
 Conhecer o padrão de distribuição espacial e temporal dos casos notificados de dengue em Osasco (majoritariamente autóctones — ou seja, com infecção contraída dentro da área estudada), com base nos bairros de residência;
 Prever os bairros com maior risco de concentração de casos, a fim de subsidiar ações de prevenção e controle.
 
@@ -25,9 +25,7 @@ Com base na experiência prática da autora na Vigilância Epidemiológica e sua
 	A fase de transformação dos dados compreendeu a redução da dimensionalidade do conjunto de dados, mantendo-se apenas os campos relevantes: bairro de residência, data do início dos sintomas e data da notificação. Dados pessoais foram completamente excluídos nesta etapa, em conformidade com os princípios éticos e legais de privacidade.
 	Para a mineração de dados, foi utilizado o modelo Random Forest Regressor, escolhido por sua robustez e capacidade de lidar com dados não lineares. A base foi dividida em 70% para treinamento e 30% para teste, considerando os dados dos anos de 2023 e 2024. Com o modelo treinado, foi então realizada a previsão do número de casos para o ano de 2025, distribuídos por bairro e por semana epidemiológica.
 	A avaliação do desempenho do modelo foi feita por meio do Erro Absoluto Médio (MAE) e do coeficiente de determinação (R²). Os resultados preliminares obtidos apontaram um R² de aproximadamente 0,678 e um MAE de cerca de 13,12 casos por bairro/semana. Esses valores indicam um bom ajuste do modelo, embora haja margem para aprimoramentos, especialmente no que se refere à inserção de variáveis ambientais e entomológicas.
-
-
-
+	Na última versão do código foi adicionada a variável de sazonalidade, e se projeta um gráfico comparativo dos números reais e a previsão realizada.
 
 
 5. REFERÊNCIAS 
