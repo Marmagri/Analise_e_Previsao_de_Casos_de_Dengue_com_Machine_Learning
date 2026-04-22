@@ -27,6 +27,11 @@ Com base na experiência prática da autora na Vigilância Epidemiológica e sua
 	A avaliação do desempenho do modelo foi feita por meio do Erro Absoluto Médio (MAE) e do coeficiente de determinação (R²). Os resultados preliminares obtidos apontaram um R² de aproximadamente 0,678 e um MAE de cerca de 13,12 casos por bairro/semana. Esses valores indicam um bom ajuste do modelo, embora haja margem para aprimoramentos, especialmente no que se refere à inserção de variáveis ambientais e entomológicas.
 	Na última versão do código foi adicionada a variável de sazonalidade, e se projeta um gráfico comparativo dos números reais e a previsão realizada.
 
+---
+
+<img width="1014" height="506" alt="image" src="https://github.com/user-attachments/assets/55b9180e-9583-4b3a-9a01-28157f42abbe" />
+
+---
 
 5. REFERÊNCIAS 
 
